@@ -1,0 +1,36 @@
+{
+  "name": "khata-book-qr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "next": "latest",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "better-auth": "latest",
+    "@radix-ui/react-slot": "^1.1.1",
+    "@radix-ui/react-label": "^2.1.1",
+    "pg": "^8.13.1",
+    "drizzle-orm": "^0.45.2",
+    "qrcode.react": "^4.2.0",
+    "class-variance-authority": "^0.7.1",
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.5.5",
+    "lucide-react": "^0.468.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.7.2",
+    "@types/node": "^22.10.1",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
+    "@types/pg": "^8.11.10",
+    "tailwindcss": "^4.0.0",
+    "@tailwindcss/postcss": "^4.0.0",
+    "postcss": "^8.4.49"
+  }
+}
